@@ -1,0 +1,29 @@
+/* StudentList.css */
+.table th, .table td {
+    vertical-align: middle; /* Center align cell content */
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff; /* Match the border */
+  }
+  
+  .pagination .page-link {
+    color: #007bff; /* Primary link color */
+  }
+  
+  /* Optional Custom CSS for Table */
+.table {
+  width: 100%;
+  table-layout: auto; /* Allows the table to adjust column widths based on content */
+}
+
+.table th, .table td {
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .table th, .table td {
+    padding: 0.5rem; /* Adjust padding for smaller screens */
+  }
+}

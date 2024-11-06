@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "balu",
+        "email": "balu@example.com",
+        "age": 20,
+        "class": "10th Grade",
+        "address": "123 Main St",
+        "phoneNumber": "1234567890"
+    },
+    {
+        "id": 2,
+        "name": "ram",
+        "email": "ram@example.com",
+        "age": 21,
+        "class": "11th Grade",
+        "address": "567 main street",
+        "phoneNumber": "987654321"
+    }
+]

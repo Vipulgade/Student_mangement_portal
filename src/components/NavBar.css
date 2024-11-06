@@ -1,0 +1,23 @@
+/* NavBar.css */
+.navbar1 {
+    display: flex;
+   flex-wrap: wrap;
+    padding: 1rem;
+    margin: 2px;
+    padding:20px ;
+     justify-content: space-between;
+    background-color: #d4cece;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: rgb(43, 40, 40);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  

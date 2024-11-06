@@ -1,0 +1,30 @@
+/* Dashboard.css */
+.dashboard-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('/image/back.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+}
+.progress-container {
+    margin: 20px 0; /* Space above and below the progress bar */
+    width: 150px; /* Adjust width */
+    height: 150px; /* Adjust height */
+    margin: 0 auto; /* Center progress bar horizontally */
+    color: aquamarine;
+  }
+  .badge {
+    font-weight: bold; /* Make the text bold */
+  }

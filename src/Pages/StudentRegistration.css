@@ -1,0 +1,29 @@
+
+
+/* Box styling for form */
+/* Box styling for form with transparency */
+.form-box {
+    background-color: rgba(218, 198, 198, 0.8); /* White background with 80% opacity */
+    border-radius: 10px;
+    padding: 2rem;
+     display: block;
+     
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1);
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 150px;
+    justify-content: center;
+    backdrop-filter: blur(5px); /* Optional: Adds a subtle blur effect to the background */
+}
+
+.input-group-text {
+    background: #007bff;
+    color: white;
+}
+
+button {
+    font-size: 1.2rem;
+}
+.heading{
+    color: #2f0306;
+}

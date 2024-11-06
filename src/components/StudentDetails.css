@@ -1,0 +1,25 @@
+/* StudentDetails.css */
+.container {
+    max-width: 600px; /* Limit the width of the details card */
+  }
+  
+  .card {
+    border-radius: 15px; /* Rounded corners */
+  }
+  
+  .details-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; /* Spacing above details */
+  }
+  
+  .detail-item {
+    display: flex;
+    align-items: center; /* Align icons and text */
+    margin-bottom: 15px; /* Spacing between items */
+  }
+  
+  .detail-item i {
+    color: #007bff; /* Bootstrap primary color for icons */
+  }
+  
